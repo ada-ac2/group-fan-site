@@ -1,0 +1,12 @@
+h1 {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+a {
+    color: rgb(252, 232, 77);
+}
+
+footer div {
+    font-weight: bold;
+}
