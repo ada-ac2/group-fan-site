@@ -1,4 +1,21 @@
-header {
-    border: 2px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+body {
+    text-align: center;
+}
+
+
+
+header, footer {
+    border: 2px solid rgb(188, 188, 188);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fbd1bd;
+    color: rgb(116, 116, 116);
+}
+
+ul li {
+    display: inline;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
 }
