@@ -11,6 +11,7 @@
 }
 body{
     font-family: 'Proza Libre', sans-serif;
+    color: #f6f1d1;
 }
 
 /* Larissa - style generic nav bar */
@@ -22,6 +23,9 @@ ul {
 
 a{
     text-decoration: none;
+}
+a:active, a:visited{
+    color: #f6f1d1;
 }
 
 h1,h2,h3,h4 {
