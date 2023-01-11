@@ -1,1 +1,52 @@
 /* Megan - Add 3 page specific styles; 1 should override style.css generic style */
+body{
+    color: white;
+    font-weight: lighter;
+
+}
+h1{
+    font-size: xx-large;
+    text-align: right;
+    min-width: 70%;
+    max-width: fit-content;
+    padding-right: 20px;
+}
+p{
+    font-size: medium;
+    padding: 2%;
+}
+
+section{
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    width: 85%;
+    padding-top: 30px;
+}
+article{
+    max-width: 900px;
+width:95%;
+margin: auto;
+display: flex;}
+
+aside p{
+    font-style: italic;
+    background-color: rgba(30,47,35,0.8);
+    width: 45%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+aside{
+    overflow: hidden;
+    background-position: center;
+    background-size: auto;
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    min-width: 250px;
+    width: 80%;
+    background-image: url('https://i.giphy.com/media/sPFicb1Irxlx3FMiUW/giphy.webp'); 
+}
