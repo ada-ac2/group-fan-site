@@ -1,1 +1,30 @@
 /* Larissa - Add 3 page specific styles; 1 should override style.css generic style */
+
+h1 {
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 50px;
+    color: #CFD7C7;
+}
+
+h2 {
+    font-size: x-large;
+    color: #CFD7C7;
+    background-color: #1E2F23;
+}
+
+p {
+    color: #CFD7C7;
+}
+
+#region-map {
+    padding-left: 15%;
+    max-width: 30%;
+    height: 30%;
+}
+
+#rainforest-img {
+    padding-left: 15%;
+    max-width: 50%;
+    height: 30%;
+}
