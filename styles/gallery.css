@@ -1,3 +1,7 @@
+h1{
+    text-shadow:1px 2px #4e6c504b;
+}
+
 .image-container{
     display: flexbox;
     margin: 1%;
@@ -5,9 +9,13 @@
 
 .image-container > a > img{
     border-radius: 5%;
-    width:200px;
+    width:250px;
     height:300px;
     box-shadow: 2px;
-    
-
+    border-style: dotted;
 }
+
+
+
+
+
