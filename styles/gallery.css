@@ -1,9 +1,8 @@
 /* Dalia - Add 3 page specific styles; 1 should override style.css generic style */
 
 img {
-    width: 35%;
+    width: 90%;
     padding-left: 5%;
-    padding-bottom: 5%;
 }
 
 h1 {
@@ -13,10 +12,10 @@ h1 {
 }
 
 section {
-    width: 70%;
-    padding: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
-#mt_storm_king {
-    height: 17vw;
+h2 {
+    text-align: center;
 }
