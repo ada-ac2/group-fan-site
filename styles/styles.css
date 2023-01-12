@@ -10,6 +10,12 @@ body {
     flex-direction: column;
 }
 
+h2 {
+    text-align: center;
+    color: rgb(250, 218, 157);
+    font-weight: bold;
+}
+
 
 #main-menu {
     border-style: groove;
@@ -33,7 +39,7 @@ body {
 }
 
 .content {
-    flex: 2 auto;
+    flex: 3 auto;
 }
 
 footer {

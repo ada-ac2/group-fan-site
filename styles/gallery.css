@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+    color: rgb(250, 218, 157);
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.main-title {
+    text-align: right;
+}
+
+.anime-titles {
+    text-shadow: 1px 1px 2px rgb(250, 218, 157);
+}
+
+.anime-images {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(251, 241, 211);
+}
+
+#one-piece {
+    justify-content:center;
+}
+
+#one-piece img {
+    width: 45%;
+    padding: 10px;
+}
+
+#sailor-moon {
+    align-content: center;
+    justify-content:center;
+}
+
+#sailor-moon img {
+    padding: 10px;
+    width: 90%;
+}
