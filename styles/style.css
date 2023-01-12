@@ -1,4 +1,6 @@
 html {
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
   *, *:before, *:after {
@@ -24,21 +26,33 @@ section {
 body{
     font-family: 'Proza Libre', sans-serif;
     color: #f6f1d1;
+    margin: 0;
+    padding:0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;}
+
 nav{
-    border: 2px solid #607744;
     border-bottom: 1px solid #CFD7C7;
     background-color: #F6F1D1;
     width: 100%;
-	margin: 0 0 1em 0;
+	margin: 0;
 	padding: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+}
+nav ul {
+    width: 85%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom:10px;
+    
+}
+nav ul li{
+    border-right: #1E2F23 2px;
 }
 
 #nav-bar {
@@ -97,7 +111,7 @@ footer {
     width: 100%;
 }
 
-ul li{
+footer ul li{
     display: inline;
     padding: 5%;
 }
