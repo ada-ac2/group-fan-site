@@ -1,5 +1,6 @@
 .image-container{
     display: flexbox;
+    margin: 1%;
 }
 
 .image-container > a > img{
@@ -7,5 +8,6 @@
     width:200px;
     height:300px;
     box-shadow: 2px;
+    
 
 }
