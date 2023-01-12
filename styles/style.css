@@ -1,11 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
 .image_container {
     width: 100%;
     height: 100vh;
-    display: flex;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-image: linear-gradient(120deg,rgba(96, 119,68, 0.8), rgba(30,47,35,0.9)), url('https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=421&q=80');
+}
+
+section {
+    display: grid;
+    grid-template: 2, 3;
+    /* grid-template: 1fr 5fr / 1fr 1fr 1fr; */
+    grid-template: 1fr 5fr / repeat(3, 1fr);
 }
 
 body{
@@ -16,18 +29,30 @@ body{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-}
-
-#nav-bar {
+    padding: 0;}
+nav{
     border: 2px solid #607744;
     border-bottom: 1px solid #CFD7C7;
     background-color: #F6F1D1;
+    width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#nav-bar {
     text-align: center;
     color: #1E2F23;
-    display: block;
-    width: 200px;
+    
 }
+
+header{
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+}
+
 
 a {
     text-decoration: none;
@@ -40,10 +65,39 @@ h1,h2,h3,h4 {
     font-family: 'Cormorant Garamond', serif;
 }
 
+/* refactor - add id to specifically call the h1 header */
+h1 {
+    grid-column: 1 / 4;
+    align-items: center;
+    /* grid-row: 3 / 5; */
+}
+
+#gallery-picture-1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+
+#gallery-picture-2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+
+#gallery-picture-3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     text-align: center;
     width: 100%;
+}
+
+ul li{
+    display: inline;
+    padding: 5%;
 }
