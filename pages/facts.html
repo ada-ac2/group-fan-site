@@ -12,42 +12,36 @@
 <body>
   <header> 
     <h1>Fun Facts for Our kids</h1>
-    <nav>
-      <a href="index.html"> Main Page  |</a>
-      <a href="gallery.html">   Gallery Of Our Kids Pictures</a>
-    </nav>
-  </header>   
-  <section>
-    <h2> Elaine's kids  </h2>
-    <ul>
-      <li><h3>Hannah The Banana</h3></li>
-      <li><h3>Aiden The Hiden</h3></li>
-      <li><h3>Brandon The Pardon</h3></li>
-    </ul>
-  </section>
-  <section>
+  </header>
+  <nav class="nav_container">
+    <div id="index"><a href="index.html"> Main Page </a> </div>
+    <div id="gallery"><a href="gallery.html">   Gallery Of Our Kids Pictures</a> </div>
+  </nav>
+  <div class="container">
+  <div class="item">
+    <h2> Elaine's kids </h2>
+    <h3>Hannah The Banana</h3>
+      <img class='Hannah-img' src="../assets/images/Hannah_Joo.jpeg" alt="Hannah_Joo">
+      <p class="Hannah-description">Lorem ipsum dolor sit amet. </p>
+    <h3>Aiden The Hiden</h3>
+      <img src="../assets/images/Aiden_Joo.jpeg" alt="Aiden_Joo">
+      <p>Lorem ipsum dolor sit amet. </p>
+    <h3>Brandon The Pardon</h3>
+      <img src="../assets/images/Brandon_Joo_1.jpeg" alt="Brandon_Joo_1">
+      <p>Lorem ipsum dolor sit amet. </p>
+  </div>
+  <div class="item">
     <h2> Jennifer's kids  </h2>
-    <ul>
-    <li><h3>Snowball Qiu-qiu (Girl)</h3>
-    <p> 
-      Snowball is a three-year-old girl.
-    </p>
-  </li>
-  <li>
+    <h3>Snowball Qiu-qiu (Girl)</h3>
+      <img class="circular--landscape" src="../assets/images/qiu2.jpg" alt="qiu2">
+    <p>Snowball is a three-year-old girl.</p>
     <h3>PiPi pi-pi(Boy)</h3>
-    <p>
-
-    </p>
-  </li>
-  </ul>
-  </section>
-  <section>
-
+    <img src="../assets/images/pi1.jpg" alt="pi1">
+    <p> PiPi is a boy.</p>
+  </div>
+  <div class="item">
     <h2> Supriya's kids </h2>
-  
-    <ul>
-      
-      <li> <h3>Vedant - Chimu </h3></li>
+      <h3>Vedant - Chimu </h3>
         <p>
           <span id="content1">
           The first line.
@@ -59,7 +53,7 @@
           Vedant loves to be around lot of people.  
           </span>
         </p>
-      <li> <h3>Nandini - Aaru</h3></li>
+      <h3>Nandini - Aaru</h3>
           <p>
             <span id="content2">
             Nandini is 8th grader.
@@ -71,11 +65,10 @@
             She wants be a professor in math or computer Science professional.
             </span>
           </p>      
-    </ul>
-  </section>
-  
-  <footer>
-    Copyright 2023 Elaine Jennifer Supriya
+  </div>
+</div>   
+  <footer class="footer-content">
+    © Copyright 2023 Elaine Jennifer Supriya. All Rights Reserved.
   </footer>
 </body>
 </html>
