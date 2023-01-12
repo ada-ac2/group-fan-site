@@ -2,6 +2,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr 1fr;
+    align-items: center;
 }
 
 header {
@@ -12,11 +13,25 @@ header {
 h1 {
     font-size: 4rem;
     font-style: italic;
+    text-align: center;
 }
 
 nav {
     display: block;
     min-width: 100%;
+
+}
+
+section {
+    grid-row: 2 / 4;
+    grid-column: 1 / 4;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 10%;
 }
 
 footer {
@@ -25,7 +40,7 @@ footer {
     justify-self: center;
 }
 
-footer p {
+p {
     font-weight: bold;
 }
 
