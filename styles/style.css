@@ -48,21 +48,36 @@ footer {
     margin-right: 10%;
 }
 
-.navbar{
+.navbar-container {
+    display: grid;
+    margin-top: 5px;
+    grid-template: 1fr 1fr 1fr / 1fr;
     margin-top: 5px;
     background-color: #501a04a7;
+    font-size: 25px;
 }
 
-.navbar a {
-    font-size: 25px;
-    display: block;
+.home-nav-container {
     color: bisque;
     text-decoration: none;
+    grid-template-rows: 1;
 }
 
-.navbar a:hover {
+.fact-nav-container {
+    color: bisque;
+    text-decoration: none;
+    grid-template-rows: 2;
+}
+
+.gallery-nav-container {
+    color: bisque;
+    text-decoration: none;
+    grid-template-rows: 3;
+}
+
+.navbar-container :hover {
     background: #4e6c50cc;
     color: rgb(37, 7, 1);
     margin-left: 30%;
     margin-right: 30%;
-}
+} 

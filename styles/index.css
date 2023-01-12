@@ -1,8 +1,3 @@
-.background-div h1 {
-    padding-top: 3%;
-    font-size: 4rem;
-}
-
 h2 {
     color: rgb(77, 53, 28);
     margin-top: 3%;
@@ -12,6 +7,11 @@ h2 {
 h3 {
     color: rgb(77, 53, 28);
     font-size: 1.3rem;
+}
+
+.background-div h1 {
+    padding-top: 3%;
+    font-size: 4rem;
 }
 
 .homepage-img {
