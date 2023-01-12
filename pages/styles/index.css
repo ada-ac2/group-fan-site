@@ -36,8 +36,8 @@ p {
     border-style: dotted;
     border-color: white;
     margin-left: 20px;
-    margin-right: 1500px;
-    size: 5000px;
+    margin-right: 200px;
+    size: 500px;
 }
 #content1::after{
     content: "\a";

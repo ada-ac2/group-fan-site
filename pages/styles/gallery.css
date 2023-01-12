@@ -1,3 +1,17 @@
+.container {
+    display: flex;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+}
+
+#section {
+    /* grid-row: 3 /5;
+    grid-column: 1 / 4; */
+
+}
+#footer {
+
+}
+
 header{
     background-color: lightgoldenrodyellow;
 }
