@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:  #d6f199;
+    
+}
+
+p {
+    line-height: 150%;
+    color:darkgray;
+    background-color:white;
+    border: 5px;
+    border-style: solild;
+    border-color: white;
+    margin-left: 20px;
+    margin-right: 500px;
+    size: 5000px;
+}
