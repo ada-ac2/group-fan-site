@@ -34,23 +34,42 @@ header {
 
 .facts ul {
     padding-left: 110px;
+    align-content: center;
 }
 
 .facts ul li {
     display: block;
     display: list-item;
     list-style-type: parrot;
+    list-style-position: outs;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    text-align: start;
+    font-size: 1vw;
+    text-align: center;
     padding-left: 2%;
     padding: 20px 0px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fun-facts h2 {
+    text-align: center;
 }
 
 .fun-facts a {
     text-decoration: underline;
     color: hotpink;
+}
+
+.facts h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 38px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-bottom: 0;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
 }
 
 .resources ul li {
@@ -62,13 +81,6 @@ header {
 .resources h5 {
     font-family: 'Tangerine', serif;
     font-size: 28px;
-    text-shadow: 4px 4px 4px #aaa;
-    margin-bottom: 0;
-}
-
-.facts h2 {
-    font-family: 'Tangerine', serif;
-    font-size: 38px;
     text-shadow: 4px 4px 4px #aaa;
     margin-bottom: 0;
 }
