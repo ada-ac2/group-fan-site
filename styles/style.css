@@ -9,7 +9,11 @@ header, footer {
     color: rgb(116, 116, 116);
 }
 
-ul li {
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
     display: inline;
     font-size: large;
     padding: 0.5vw;
@@ -21,4 +25,4 @@ a {
     color: black;
 }
 
-a:hover { color: rgb(116, 116, 116); } 
+a:hover { color: rgb(116, 116, 116); }
