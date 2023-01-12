@@ -13,17 +13,26 @@ body{
     color: #f6f1d1;
 }
 
-/* Larissa - style generic nav bar */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-a{
+#nav-bar {
+    border: 2px solid #607744;
+    border-bottom: 1px solid #CFD7C7;
+    background-color: #F6F1D1;
+    text-align: center;
+    color: #1E2F23;
+    display: block;
+    width: 200px;
+}
+
+a {
     text-decoration: none;
 }
-a:active, a:visited{
+a:active, a:visited {
     color: #f6f1d1;
 }
 
