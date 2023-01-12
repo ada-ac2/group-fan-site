@@ -1,3 +1,14 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1 / span 1;
+}
+
 h1 {
     font-size: 4rem;
     font-style: italic;
@@ -6,6 +17,12 @@ h1 {
 nav {
     display: block;
     min-width: 100%;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / span 1;
+    justify-self: center;
 }
 
 footer p {
