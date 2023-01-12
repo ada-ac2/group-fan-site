@@ -1,0 +1,14 @@
+h1 {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+nav {
+    display: block;
+    min-width: 100%;
+}
+
+footer p {
+    font-weight: bold;
+}
+

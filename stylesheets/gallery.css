@@ -1,8 +1,6 @@
 h2 {
-    text-align: center;
     color: rgb(250, 218, 157);
     text-shadow: 1px 1px 2px black;
-    
 }
 
 .main-title {
@@ -17,6 +15,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(251, 241, 211);
+    padding: 10px;
 }
 
 #one-piece {
@@ -25,7 +24,7 @@ h2 {
 
 #one-piece img {
     width: 45%;
-    padding: 10px;
+    padding: 5px;
 }
 
 #sailor-moon {
@@ -34,6 +33,15 @@ h2 {
 }
 
 #sailor-moon img {
-    padding: 10px;
+    padding: 5px;
     width: 90%;
+}
+
+#neo-yokio {
+    justify-content:center;
+}
+
+#neo-yokio img {
+    width: 40%;
+    
 }
