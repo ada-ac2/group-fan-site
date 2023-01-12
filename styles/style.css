@@ -19,7 +19,6 @@ html {
 section {
     display: grid;
     grid-template: 2, 3;
-    /* grid-template: 1fr 5fr / 1fr 1fr 1fr; */
     grid-template: 1fr 5fr / repeat(3, 1fr);
 }
 
