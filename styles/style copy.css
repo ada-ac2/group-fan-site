@@ -10,23 +10,30 @@ body{
     height: 100%;
     margin: 0 auto;
 }
-
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3%;
+}
 footer {
-    margin-top: 0px;
     height: 1%;
-    padding: 0 px;
+    padding: 10px;
     color:bisque;
     background-color: #4E6C50;
     font-size: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 1%;
+    margin: 0;
+    width: 100%;
+    
 }
 
-h1 {
+#navbar-row{
     font-size: 45px;
     font-family: 'Crimson Text', serif;
     color: rgb(77, 53, 28);
+    background-color:bisque;
+    margin:0;
+    text-shadow:1px 2px #4e6c504b;
+    padding-bottom: 3%;
 }
 
 h2 {
@@ -36,19 +43,23 @@ h2 {
 
 .background-div {
     background-color: bisque;
+    margin-top: 0;
+    margin-bottom: 5%;
     margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 3%;
-    margin-top: 3%;
-    padding-bottom: 3%;
+    margin-right:10%;
+    padding-top: 2%;
+    padding-bottom:5%;
+
+
 }
 
 .navbar-row nav {
     display: grid;
     font-size: 25px;
-    margin-top: 1%;
+    margin-top: 0;
     grid-template: 1fr 1fr 1fr / 1fr;
-    background-color: #501a04a7;
+    background-color:   rgb(79, 58, 49);
+};
 }
 
 .navbar-row nav a {
@@ -61,4 +72,9 @@ h2 {
     color: rgb(37, 7, 1);
     margin-left: 30%;
     margin-right: 30%;
+} 
+
+.navbar-row nav a:visited{
+    color: rgb(188, 149, 190);
+    
 } 
