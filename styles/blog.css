@@ -19,7 +19,7 @@
     height:400px;
     float: left; 
     border: 3px dashed #501a04a7; 
-    margin-left: 2%;
+    border-radius: 15px;
 }
 
 .blog1 {
@@ -31,8 +31,7 @@
 .blog1 p {
     font-size: 17px;
     text-align: left;
-    margin-left: 35%;
-    margin-right: 5%;
+    margin-left: 40%;
 }
 
 .post2-img {
@@ -40,7 +39,7 @@
     height:400px;
     float: right; 
     border: 3px dashed #501a04a7; 
-    margin-right: 2%;
+    border-radius: 15px;
 }
 
 .blog2 {
@@ -54,8 +53,7 @@
 .blog2 p {
     font-size: 17px;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 35%;
+    margin-right: 40%;
 }
 
 .navbar-row nav a {
