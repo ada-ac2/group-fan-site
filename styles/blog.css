@@ -1,0 +1,52 @@
+.web-title {
+    margin-bottom: 1%;
+    margin-top: 0%;
+}
+
+.title-row {
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
+.main-row {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    margin-top: 3%;
+}
+
+.post1-img {
+    width:30%;
+    height: 350px;
+    float: left; 
+}
+
+.blog1 {
+    grid-row: 1; 
+    grid-column: 1;
+}
+
+.blog1 p {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+.post2-img {
+    width:30%;
+    height: 350px;
+    float: right; 
+}
+
+.blog2 {
+    grid-row: 2; 
+    grid-column: 1;
+    margin-top: 2%;
+}
+
+.blog2 p {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 35%;
+}
