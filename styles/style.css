@@ -1,13 +1,18 @@
 body {
     text-align: center;
     background-image: url(../assets/birds-cute-wallpaper-pattern-brightened.jpg);
+    margin: 0;
 }
 
 header, footer {
     border: 2px solid rgb(188, 188, 188);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #fbd1bd;
-    color: rgb(116, 116, 116);
+    background-color: #eab031;
+    color: rgb(72, 72, 72);
+}
+
+h1 {
+    font-size: max(2vw, 20px);
 }
 
 nav ul {
@@ -16,14 +21,18 @@ nav ul {
 
 nav ul li {
     display: inline;
-    font-size: large;
     padding: 0.5vw;
 }
 
 a {
     outline: none;
     text-decoration: none;
-    color: black;
+    font-size: max(1vw, 10px);
+    color: rgb(72, 72, 72);
 }
 
 a:hover { color: rgb(116, 116, 116); }
+
+footer > p {
+    font-size: max(1vw, 10px);
+}
