@@ -3,10 +3,27 @@ main {
     padding: 5vh 0;
 }
 
-img {
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* border: 2px solid black;*/
+    justify-items: center;
+}
+
+.grid-item {
+    /*border: 2px solid red;*/
+    align-self: center;
+}
+
+img.grid-item-1 {
     width: 80vw;
     max-width: 800px;
     border-radius: 50%;
+}
+
+#img-description, p > a {
+    font-size: max(0.5vw, 15px);
 }
 
 p {
@@ -19,8 +36,3 @@ h3 {
     font-family: 'Tangerine', serif;
     font-size: 50px;
 }
-
-#img-description {
-    font-size: small;
-}
-
