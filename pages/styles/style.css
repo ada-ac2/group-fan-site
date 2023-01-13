@@ -46,7 +46,7 @@ h2 {
     font-family: 'PfennigMedium',serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     color:rgb(2, 18, 53);
     list-style: none;
     padding: 0;
@@ -59,6 +59,7 @@ em {
 
 section {
     text-align: center;
+    background-color: rgb(168, 221, 194);
 }
 p {
     line-height: 150%;
@@ -68,7 +69,7 @@ p {
     border-style: dotted;
     border-color: white;
     margin-left: 20px;
-    margin-right: 500px;
+    margin-right: 50px;
     size: 5000px;
 }
 
@@ -111,7 +112,7 @@ img {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-size: 17px;
 }
