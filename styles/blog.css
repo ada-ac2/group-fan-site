@@ -15,14 +15,15 @@
 }
 
 .post1-img {
-    width:30%;
-    height: 350px;
+    width:350px;
+    height:400px;
     float: left; 
     border: 3px dashed #501a04a7; 
     margin-left: 2%;
 }
 
 .blog1 {
+    padding:5%;
     grid-row: 1; 
     grid-column: 1;
 }
@@ -35,8 +36,8 @@
 }
 
 .post2-img {
-    width:30%;
-    height: 350px;
+    width:350px;
+    height:400px;
     float: right; 
     border: 3px dashed #501a04a7; 
     margin-right: 2%;
@@ -46,6 +47,8 @@
     grid-row: 2; 
     grid-column: 1;
     margin-top: 2%;
+    padding:5%;
+
 }
 
 .blog2 p {
