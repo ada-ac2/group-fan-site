@@ -10,10 +10,12 @@ body{
     height: 100%;
     margin: 0 auto;
 }
+
 header{
     margin-left: 10%;
     margin-right: 10%;
     margin-top:3%;
+
 }
 footer {
     height: 1%;
@@ -26,6 +28,7 @@ footer {
     
 }
 
+/*h1 file in the navbar*/
 #navbar-row{
     font-size: 45px;
     font-family: 'Crimson Text', serif;
@@ -58,7 +61,7 @@ h2 {
     font-size: 25px;
     margin-top: 0;
     grid-template: 1fr 1fr 1fr / 1fr;
-    background-color:   rgb(79, 58, 49);
+    background-color:   rgb(140, 95, 69);
 };
 }
 
