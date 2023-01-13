@@ -45,7 +45,7 @@ h2 {
 .navbar-row nav {
     display: grid;
     font-size: 25px;
-    margin-top: 5px;
+    margin-top: 1%;
     grid-template: 1fr 1fr 1fr / 1fr;
     background-color: #501a04a7;
 }
@@ -61,40 +61,3 @@ h2 {
     margin-left: 30%;
     margin-right: 30%;
 } 
-
-/* .navbar-container {
-    display: grid;
-    font-size: 25px;
-    color: bisque;
-    text-decoration: none;
-    margin-top: 5px;
-    grid-template: 1fr 1fr 1fr / 1fr;
-    margin-top: 5px;
-    background-color: #501a04a7;
-    height: 35%;
-} */
-
-/* .home-nav-container {
-    color: bisque;
-    text-decoration: none;
-    grid-template-rows: 1;
-}
-
-.fact-nav-container {
-    color: bisque;
-    text-decoration: none;
-    grid-template-rows: 2;
-}
-
-.gallery-nav-container {
-    color: bisque;
-    text-decoration: none;
-    grid-template-rows: 3;
-} */
-/* 
-.navbar-container :hover {
-    background: #4e6c50cc;
-    color: rgb(37, 7, 1);
-    margin-left: 30%;
-    margin-right: 30%;
-}  */
