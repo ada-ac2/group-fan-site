@@ -12,6 +12,7 @@ header > nav ul{
 body {
     font-family: sans-serif;
     background-color: rgb(114, 141, 185);
+    background-image: url(../../assets/images/soft_cloud.jpeg);
 
 }
 p {
