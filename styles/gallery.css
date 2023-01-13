@@ -5,7 +5,7 @@ h1{
 
 .image-container{
     display: flexbox;
-    margin: 1%;
+    
     
 }
 .image-container > a{
