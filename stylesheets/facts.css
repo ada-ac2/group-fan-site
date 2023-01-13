@@ -35,4 +35,6 @@ ul, li, a {
 
 #facts {
     font-family: fantasy;
+    font-size: 2rem;
+    color: black;
 }
