@@ -6,6 +6,7 @@ main {
 img {
     width: 80vw;
     max-width: 800px;
+    border-radius: 50%;
 }
 
 p {
