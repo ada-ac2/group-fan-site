@@ -5,14 +5,21 @@ h1{
 .image-container{
     display: flexbox;
     margin: 1%;
+    
 }
-
+.image-container > a{
+    color: #501a04a7;
+    
+}
+.image-container > a:visited{
+    color: #501a04a7;
+}
 .image-container > a > img{
     border-radius: 5%;
     width:250px;
     height:300px;
-    box-shadow: 2px;
     border-style: dotted;
+    
 }
 
 
