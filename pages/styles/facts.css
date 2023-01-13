@@ -1,16 +1,29 @@
-header {
+/* header {
     padding:0;
     margin:0;    
-}
-h1{
-    background-color:black;
-}
+} */
 
+h1 {
+    font-family: 'LemonRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 4.5rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
 
 body {
     background-image: url(../../assets/images/soft_cloud.jpeg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-image: url(../../assets/images/soft_cloud.jpeg); */
+    background-image: url(../../assets/images/soft_cloud.jpeg);
+    /* margin-left:0;
+    margin-right:0; */
+    display:flex;
+    flex-direction: column;
 }
 nav{
     font-size : 1.5rem;
@@ -20,16 +33,40 @@ nav{
 .nav_container {
     text-align: center;
 }
-.item {
-    /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
-    /* border-style:solid;
-    border-color:rgb(78, 75, 75); */
-    background-color:rgb(248, 241, 230);
-    padding:20px;
-    margin:10px;
-    text-align: center;
+
+.navbar {
+    background-color: rgb(57, 59, 72);
+    overflow: hidden;
+    position: relative; 
+    bottom: 0;
+    width: 23%;
+    align-self: center;
 }
+
+  /* Style the links inside the navigation bar */
+/* .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+
+  /* Change the color of links on hover */
+/* .navbar a:hover {
+    background-color: #ddd;
+    color: rgb(14, 11, 11);
+} */
+
+  /* Add a color to the active/current link */
+/* .navbar a.active {
+    background-color: #daa7d7;
+    color: white;
+} */ 
+
+
 /* .circular--landscape { 
     display: inline-block; 
     position: relative; 
@@ -49,22 +86,45 @@ nav{
 img {
     display: inline-block;
     position: relative;
-    width: 200px;
-    height: 200px;
+    max-width: 80%;
+    max-height: 80%;
     background-position:-25px -20px;
     overflow:hidden;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 } 
 
-.container {
+.item-container {
     background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    /* background-color:  #e0ebe8; */
-    margin:50px;
+    /* background-color:rgb(248, 241, 230); */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: top;
+    /* align-items: top; */
 }
+
+.item {
+    background-color:rgb(239, 237, 232);
+    padding:20px;
+    margin:10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr, repeat(3, 4fr);
+    align-self: flex-start;
+
+}
+
+.content {
+    background-color: white;
+    border-color: whitesmoke;
+    border-style: shade;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:2px;
+    margin-bottom:20px;
+    box-shadow: 0px 5px 10px 0px grey;
+    align-self: center;
+}
+
 /* section {
     align-items: center;
     border: #010b08;
@@ -75,7 +135,7 @@ img {
 h2 {
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-weight:bolder;
-    color: rgb(38, 2, 28);
+    color: rgb(73, 3, 53);
 }
 
 
@@ -86,6 +146,7 @@ h3 {
 }
 
 p {
+    text-align:left;
     line-height: 100%;
     color:grey;
     background-color:rgb(247, 243, 243);
@@ -96,6 +157,7 @@ p {
     margin-right: 0px;
     size: 0px;
     padding: 1rem;
+    margin: 10px;
     border-radius : 10px;
 
 }
@@ -105,15 +167,14 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgb(6, 6, 6);
+    background: linear-gradient(to right, #f48fb1, #7e57c2, #26c6da, #1eb0ac, #eeff41);
     height: auto;
-    width: 100vw;
     padding-top: 20px;
-    color: #fff;
+    color: rgb(241, 6, 6);
 }
 
 .footer-content{
-    display: flex;
+    display:block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -122,5 +183,6 @@ footer {
     /* margin: 0px auto; */
     line-height: 25px;
     font-size: 20px;
-    color: #cacdd2;
+    color:white;
+    font-stretch: expanded;
 }
