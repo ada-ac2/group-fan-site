@@ -61,11 +61,6 @@ h2 {
     margin-top: 0;
     grid-template: 1fr/ 1fr 1fr 1fr 1fr ;
     background-color:   rgb(140, 95, 69);
-};
-
-.navbar-row nav a {
-    color: bisque;
-    text-decoration: none;
 }
 
 .navbar-row nav a:hover {
@@ -74,6 +69,5 @@ h2 {
 } 
 
 .navbar-row nav a:visited{
-    color: rgb(188, 149, 190);
-    
+    color: rgb(243, 217, 244);
 } 
