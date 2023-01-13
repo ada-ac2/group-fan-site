@@ -18,6 +18,8 @@
     width:30%;
     height: 350px;
     float: left; 
+    border: 3px dashed #501a04a7; 
+    margin-left: 2%;
 }
 
 .blog1 {
@@ -36,6 +38,8 @@
     width:30%;
     height: 350px;
     float: right; 
+    border: 3px dashed #501a04a7; 
+    margin-right: 2%;
 }
 
 .blog2 {
