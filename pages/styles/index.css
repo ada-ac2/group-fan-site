@@ -5,13 +5,13 @@ header {
 header > nav ul{
     list-style: none;
     margin:0;
-    padding:0;
+    padding: 2px;
 }
 
 body {
     font-family: sans-serif;
     background-color: gainsboro;
-    
+
 }
 
 h1 {
