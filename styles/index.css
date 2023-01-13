@@ -63,3 +63,8 @@ h3 {
     margin-top: 5%;
     margin-left: 3%;
 }
+
+.navbar-row nav a {
+    color: bisque;
+    text-decoration: none;
+}

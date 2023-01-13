@@ -66,3 +66,8 @@ p{
     margin:0;
 
 }
+
+.navbar-row nav a {
+    color: bisque;
+    text-decoration: none;
+}

@@ -54,3 +54,8 @@
     margin-left: 5%;
     margin-right: 35%;
 }
+
+.navbar-row nav a {
+    color: bisque;
+    text-decoration: none;
+}

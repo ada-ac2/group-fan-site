@@ -23,7 +23,10 @@ h1{
     
 }
 
-
+.navbar-row nav a {
+    color: bisque;
+    text-decoration: none;
+}
 
 
 
