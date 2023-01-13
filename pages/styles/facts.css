@@ -1,7 +1,10 @@
-/* header {
-    padding:0;
-    margin:0;    
-} */
+body {
+    background-image: url(../../assets/images/soft_cloud.jpeg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat:round;
+    display:flex;
+    flex-direction: column;
+}
 
 h1 {
     font-family: 'LemonRegular';
@@ -16,73 +19,6 @@ h1 {
     
 }
 
-body {
-    background-image: url(../../assets/images/soft_cloud.jpeg);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(../../assets/images/soft_cloud.jpeg);
-    /* margin-left:0;
-    margin-right:0; */
-    display:flex;
-    flex-direction: column;
-}
-nav{
-    font-size : 1.5rem;
-    background-color: none;
-    border-style: none;
-}
-.nav_container {
-    text-align: center;
-}
-
-.navbar {
-    background-color: rgb(57, 59, 72);
-    overflow: hidden;
-    position: relative; 
-    bottom: 0;
-    width: 23%;
-    align-self: center;
-}
-
-  /* Style the links inside the navigation bar */
-/* .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-} 
-
-  /* Change the color of links on hover */
-/* .navbar a:hover {
-    background-color: #ddd;
-    color: rgb(14, 11, 11);
-} */
-
-  /* Add a color to the active/current link */
-/* .navbar a.active {
-    background-color: #daa7d7;
-    color: white;
-} */ 
-
-
-/* .circular--landscape { 
-    display: inline-block; 
-    position: relative; 
-    width: 200px; 
-    height: 200px; 
-    overflow: hidden; 
-    border-radius: 50%; } 
-
-.circular--landscape img { 
-    width: auto; 
-    height: 400px; 
-    margin-left: -100px;
-    margin-top: -70px;
-    margin-bottom: -50px;
-
-}*/
 img {
     display: inline-block;
     position: relative;
@@ -90,7 +26,6 @@ img {
     max-height: 80%;
     background-position:-25px -20px;
     overflow:hidden;
-    /* border-radius: 50%; */
 } 
 
 .item-container {
@@ -99,7 +34,6 @@ img {
     /* background-color:rgb(248, 241, 230); */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* align-items: top; */
 }
 
 .item {
@@ -110,7 +44,6 @@ img {
     display: grid;
     grid-template-rows: 1fr, repeat(3, 4fr);
     align-self: flex-start;
-
 }
 
 .content {
@@ -125,17 +58,12 @@ img {
     align-self: center;
 }
 
-/* section {
-    align-items: center;
-    border: #010b08;
-} */
-/* font-family: "sacramento", cursive; */
-/* font-family: "Monteserrat", sans-serif; */
-
 h2 {
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-weight:bolder;
-    color: rgb(73, 3, 53);
+    background: linear-gradient(to right,  #ef0855, #7e57c2,  #19a8ba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -179,8 +107,6 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    /* max-width: 500px; */
-    /* margin: 0px auto; */
     line-height: 25px;
     font-size: 20px;
     color:white;
