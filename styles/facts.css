@@ -9,6 +9,10 @@ h2{
     font-weight: bold;
 }
 
+p{
+    margin: 0;
+}
+
 .body-container{
     
     width: 80%;
@@ -60,10 +64,6 @@ h2{
 .fact-container > a{
     grid-column: 1/ span 1;
     grid-row: 2;
-
-}
-p{
-    margin:0;
 
 }
 
