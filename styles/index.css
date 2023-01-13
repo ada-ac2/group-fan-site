@@ -10,11 +10,12 @@ h3 {
 
 .homepage-container {
     display: grid;
-    grid-template: 0.1fr 0.4frgi / 1fr;
+    grid-template: 0.1fr 0.4fr / 1fr;
 }
 
 .web-title {
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    margin-top: 0%;
 }
 
 .title-row {
