@@ -52,8 +52,6 @@ h2 {
     margin-right:10%;
     padding-top: 2%;
     padding-bottom:5%;
-
-
 }
 
 .navbar-row nav {
@@ -63,7 +61,7 @@ h2 {
     grid-template: 1fr 1fr 1fr / 1fr;
     background-color:   rgb(140, 95, 69);
 };
-}
+
 
 .navbar-row nav a {
     color: bisque;

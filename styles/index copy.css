@@ -8,12 +8,10 @@ h3 {
     font-size: 1.3rem;
     margin-top: 10%;
 }
-
 .homepage-container {
     display: grid;
     grid-template: 0.1fr 0.4fr / 1fr;
 }
-
 .navbar-row {
     grid-row: 2;
     grid-column: 1/2;
