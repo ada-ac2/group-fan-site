@@ -16,14 +16,12 @@ header {
 .fun-facts {
     box-sizing: content-box;
     width: 97%;
-    border-style: solid transparent;
 }
 
 .regular-facts {
     box-sizing: content-box;
     width: 97.2%;
     height: 580px;
-    border-style: solid transparent;
 }
 
 .facts {
@@ -41,7 +39,6 @@ header {
     display: block;
     display: list-item;
     list-style-type: parrot;
-    list-style-position: outs;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1vw;
     text-align: center;
