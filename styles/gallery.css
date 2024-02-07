@@ -1,0 +1,35 @@
+h1{
+    text-shadow:1px 2px #4e6c504b;
+    margin-bottom: 3%;
+}
+
+.image-container{
+    display: flexbox;
+    
+    
+}
+
+.image-container > a{
+    color: #501a04a7;
+    
+}
+
+.image-container > a:visited{
+    color: #501a04a7;
+}
+
+.image-container > a > img{
+    border-radius: 5%;
+    width:250px;
+    height:300px;
+    border-style: dotted;
+    
+}
+
+.navbar-row nav a {
+    color: bisque;
+    text-decoration: none;
+}
+
+
+
