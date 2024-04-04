@@ -1,0 +1,24 @@
+/* * {
+    border: 2px solid red;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+section .main_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section img {
+  width: 80%;
+  height: 80%;
+  margin: 1rem;
+  object-fit: cover;
+}
+/* overwrite the padding attribute of section tag in style.css */
+section {
+  padding: 1.5rem;
+}
