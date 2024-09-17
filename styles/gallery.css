@@ -1,0 +1,21 @@
+/* Dalia - Add 3 page specific styles; 1 should override style.css generic style */
+
+img {
+    width: 90%;
+    padding-left: 5%;
+}
+
+h1 {
+    font-family: Arial, Helvetica;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+section {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+h2 {
+    text-align: center;
+}

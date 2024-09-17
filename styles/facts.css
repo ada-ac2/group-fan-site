@@ -1,0 +1,42 @@
+/* Larissa - Add 3 page specific styles; 1 should override style.css generic style */
+
+h1 {
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 50px;
+    color: #CFD7C7;
+}
+
+h2 {
+    font-size: x-large;
+    color: #CFD7C7;
+    background-color: #1E2F23;
+    display: inline;
+    text-align: center;
+}
+
+p {
+    color: #CFD7C7;
+}
+
+#region-map {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rainforest-img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: grid;
+    grid-template: 2, 2;
+    grid-template: 1fr 5fr / repeat(2, 1fr);
+    padding-right: 5%;
+    padding-left: 5%;
+}
