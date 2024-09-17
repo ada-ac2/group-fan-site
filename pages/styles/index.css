@@ -1,0 +1,84 @@
+header {
+    background-color:pink;
+    font-family: "arial-black";
+
+}
+header > nav ul{
+    list-style: none;
+    margin:0;
+    padding: 2px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(114, 141, 185);
+    background-image: url(../../assets/images/soft_cloud.jpeg);
+
+}
+
+h1 {
+    background-color: rgb(200, 167, 105);
+    font-size: 2.5rem;
+    text-align: center;
+    border-style: double;
+}
+
+
+h2 {
+    color:rgb(25, 86, 217);
+    list-style: disc;
+    margin:0;
+    padding: 5px;
+    font-size: 2rem;
+    border: 5px;
+    border-color: black;
+}
+p {
+    line-height: 150%;
+    color:black;
+    background-color:rgb(163, 146, 222);
+    border: 5px;
+    border-style: dotted;
+    border-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    size: 700px;
+    border: 5px;
+    border-color: black;
+}
+#content1::after{
+    content: "\a";
+    white-space: pre;
+    text-decoration: wavy;
+    text-align: left;
+}
+
+#content2::after{
+    content: "\a";
+    white-space: pre;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav {
+    font-size : 1.5rem;
+    background-color: rgb(168, 221, 194);
+    border-style: dotted black;
+}
+
+
+img {
+    border: 1px solid #ddd;
+    border-radius : 10px;
+    width : 400px;
+    height : 200px;
+    padding: 5px;
+}
+
+#three_moms {
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+    border-radius: 150px;
+}
+

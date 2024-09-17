@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap');
+@import url('https://fontlibrary.org//face/lemon" type="text/css');
+
+header {
+    background-color: #c5ded7;
+}
+
+body {
+    font-family: sans-serif;
+    background-color:  #e0ebe8;
+    margin:0px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* h1 is three moms club */
+
+
+h1 {
+    line-height: 200%;
+    background-color: rgb(99, 142, 142);
+    color: rgb(239, 244, 244);
+    text-align: center;
+    font-family: 'LemonRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 4.5rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* h2 is welcome messge */
+h2 {
+    font-family: 'PfennigMedium',serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color:rgb(2, 18, 53);
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+em {
+    font-size: 40px;
+}
+
+section {
+    text-align: center;
+    background-color: rgb(168, 221, 194);
+}
+p {
+    line-height: 150%;
+    color:black;
+    background-color:white;
+    border: 5px;
+    border-style: dotted;
+    border-color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+    size: 5000px;
+}
+
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#content2::after{
+    content: "\a";
+    white-space: pre;
+}
+
+nav {
+    font-size : 1em;
+    background-color: mintcream;
+    border-style: dotted black;
+}
+
+
+img {
+    border: 1px solid #ddd;
+    border-radius : 10px;
+    width : 300px;
+    padding: 5px;
+}
+
+
+.navbar {
+    background-color: rgb(57, 59, 72);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 23%;
+}
+
+  /* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(14, 11, 11);
+}
+
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #daa7d7;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #f48fb1, #7e57c2, #26c6da, #1eb0ac, #eeff41);
+    height: auto;
+}
+
+.footer-content{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    color:white;
+    font-stretch: expanded;
+}
