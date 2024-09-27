@@ -1,0 +1,83 @@
+@counter-style parrot {
+    system: cyclic;
+    symbols: "\1F99C";
+    suffix: " ";
+}
+@counter-style flower {
+    system: cyclic;
+    symbols: "\1F338";
+    suffix: " ";
+}
+
+header {
+    margin-bottom: 3%;
+}
+
+.fun-facts {
+    box-sizing: content-box;
+    width: 97%;
+}
+
+.regular-facts {
+    box-sizing: content-box;
+    width: 97.2%;
+    height: 580px;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0px 50px;
+}
+
+.facts ul {
+    padding-left: 110px;
+    align-content: center;
+}
+
+.facts ul li {
+    display: block;
+    display: list-item;
+    list-style-type: parrot;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    text-align: center;
+    padding-left: 2%;
+    padding: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fun-facts h2 {
+    text-align: center;
+}
+
+.fun-facts a {
+    text-decoration: underline;
+    color: hotpink;
+}
+
+.facts h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 38px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-bottom: 0;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+}
+
+.resources ul li {
+    display: block;
+    display: list-item;
+    list-style-type: flower;
+}
+
+.resources h5 {
+    font-family: 'Tangerine', serif;
+    font-size: 28px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-bottom: 0;
+}
